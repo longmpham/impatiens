@@ -9,14 +9,15 @@ const Home = () => {
   return (
     <>
       <div className="home">
+        <h1 className="top-notification">Coming Soon...</h1>
         <div className="home-landing-container">
-          <div className="home-landing-container-title">
-            <h2>Impatiens Coming Soon</h2>
-            <h4>Impatient for nails? Go with Impatiens</h4>
+          <div className="home-landing-title">
+            <h2>Impatiens</h2>
+            <h5>Impatient for nails? Go with Impatiens</h5>
           </div>
-          <div className="home-landing-button">
-            <button>About</button>
-            <button>Check the nails out!</button>
+          <div className="home-landing-buttons">
+            <button className="home-landing-button">Learn More</button>
+            <button className="home-landing-button">Check the nails out!</button>
           </div>
         </div>
         <div className="home-quick-info-container">
@@ -34,18 +35,20 @@ const Home = () => {
           </div>
         </div>
         <div className="home-customer-feedback-container">
-          <h2 className="home-section-title">Still not impatient enough?</h2>
+          <h2 className="home-customer-feedback-item home-section-title">Stop Being Impatient!</h2>
+          <div className="home-customer-feedback-item">Customer Card
+            <h5>Some Name</h5>
+            <p>some cool quote</p>
+          </div>
           <div className="home-customer-feedback-item">Customer Card
             <h5>Some Name</h5>
             <p>some cool quote</p>
           </div>
         </div>
         <div className="home-quick-nav-container">
-          <h2 className="home-section-title">Get Impatiens Now!</h2>
-          <div className="home-quick-nav-item">
-            <button className="home-quick-nav-button">Current Products</button>
-            <button className="home-quick-nav-button">Future Releases</button>
-          </div>
+          <h2 className="home-quick-nav-item home-section-title">Get Impatiens Now!</h2>
+          <button className="home-quick-nav-item home-quick-nav-button">Current Products</button>
+          <button className="home-quick-nav-item home-quick-nav-button">Subscribe For Future Releases</button>
         </div>
       </div>
     </>
