@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(110, 213, 253);
+  border-bottom: 2px;
+  border-bottom-style: outset;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.navbar-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.navbar-title {
+  flex-grow: 1
+}
+
+.navbar-button {
+  margin-left: 2%;
+}
