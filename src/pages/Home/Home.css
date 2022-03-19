@@ -1,7 +1,80 @@
 .home {
-  background-color: red;
+  /* background-color: lightgrey; */
 }
 
-.home-landing {
-  margin: 0
+.home-landing-container {
+  margin: 0;
+  background-image: url("https://media.istockphoto.com/photos/hands-with-pastel-nail-polish-on-multicolored-background-picture-id1308463577?b=1&k=20&m=1308463577&s=170667a&w=0&h=8lCVx4f1MjAnKeDzSrOUj3jksUU0iWfU8QjNbXAnGIw=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.home-quick-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.home-quick-info-item {
+  flex: 1 1 30%;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 33%; */
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 245, 245);
+  border: 5px outset rgb(228, 228, 228);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 30px;
+  /* padding-right: 0px;
+  padding-bottom: 60px;
+  padding-left: 0px; */
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .home-quick-info-item {
+    flex: 1 1 100%;
+  }
+}
+
+.home-customer-feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-customer-feedback-item {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.home-quick-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-quick-nav-item {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.home-quick-nav-button {
+
+}
+
+.home-section-title {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
