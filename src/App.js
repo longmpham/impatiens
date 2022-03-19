@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import "./App.css"
+import ProductList from "./pages/Products/ProductList";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/blog" element={<Blog />}></Route>
+          <Route path="/products" element={<ProductList />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
         <Footer />

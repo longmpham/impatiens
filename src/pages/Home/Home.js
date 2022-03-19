@@ -5,7 +5,15 @@ import { GiSpotedFlower } from 'react-icons/gi'
 
 import "./Home.css"
 
+import customerCards from "./customerCards.js"
+
 const Home = () => {
+
+
+  const [customers, setCustomers] = React.useState(customerCards)
+  // console.log(customerCard)
+
+
   return (
     <>
       <div className="home">
@@ -36,14 +44,14 @@ const Home = () => {
         </div>
         <div className="home-customer-feedback-container">
           <h2 className="home-customer-feedback-item home-section-title">Stop Being Impatient!</h2>
-          <div className="home-customer-feedback-item">Customer Card
-            <h5>Some Name</h5>
-            <p>some cool quote</p>
-          </div>
-          <div className="home-customer-feedback-item">Customer Card
-            <h5>Some Name</h5>
-            <p>some cool quote</p>
-          </div>
+          {customers.map(customer => {
+            return (
+              <div className="home-customer-feedback-item">
+                <h5>{customer.name}</h5>
+                <p>{customer.quote}</p>
+              </div>
+            )
+          })}
         </div>
         <div className="home-quick-nav-container">
           <h2 className="home-quick-nav-item home-section-title">Get Impatiens Now!</h2>

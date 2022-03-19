@@ -19,6 +19,30 @@
 }
 
 .navbar-button {
-  margin-left: 2%;
-  margin-right: 2%;
+  /* margin-left: 2%; */
+  margin-right: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar li:hover {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.navbar li {
+  padding: 10px 14px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
 }
