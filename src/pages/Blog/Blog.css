@@ -1,0 +1,41 @@
+.blog-container {
+  margin: 5% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%
+}
+
+.blog-main {
+  background-color: bisque;
+  flex: 1 1 68%
+}
+
+.blog-sidebar {
+  background-color: aliceblue;
+  flex: 1 1 30%;
+}
+
+.blog-post {
+
+}
+
+.blog-title {
+
+}
+
+.blog-date {
+
+}
+
+.blog-body {
+
+}
+
+@media (max-width: 768px){
+  .blog-sidebar {
+    display: none;
+  }
+  .blog-main {
+    flex: 1 1 100%;
+  }
+}

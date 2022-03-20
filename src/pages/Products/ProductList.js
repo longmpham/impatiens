@@ -15,6 +15,7 @@ const ProductList = () => {
     <>
       <h1 className="top-notification">Coming Soon...</h1>
       <div className="product-container">
+        {/* can refactor to add a new product card react element */}
       {products.map(product => {
         return (
           <div className="product-card" key={product.id}>
