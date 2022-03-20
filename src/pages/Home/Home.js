@@ -46,7 +46,7 @@ const Home = () => {
           <h2 className="home-customer-feedback-item home-section-title">Stop Being Impatient!</h2>
           {customers.map(customer => {
             return (
-              <div className="home-customer-feedback-item">
+              <div className="home-customer-feedback-item" key={customer.id}>
                 <h5>{customer.name}</h5>
                 <p>{customer.quote}</p>
               </div>

@@ -49,8 +49,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 .home-quick-info-item {
   flex: 1 1 30%;

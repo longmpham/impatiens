@@ -46,3 +46,25 @@
   margin: 0;
   padding: 0;
 }
+
+.navbar-button-options {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navbar ul {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .navbar-button-options {
+    display: block;
+  }
+  .navbar li {
+    display: none;
+  }
+}

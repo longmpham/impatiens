@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter as Router, Link } from "react-router-dom"
-import { GiSpotedFlower } from 'react-icons/gi'
+import { GiSpotedFlower, GiHamburgerMenu } from 'react-icons/gi'
 
 import "./Navbar.css"
 
@@ -17,6 +17,7 @@ const Navbar = () => {
             <li className="navbar-button"><Link to="/blog">Blog</Link></li>
             <li className="navbar-button"><Link to="/products">Products</Link></li>
             <li className="navbar-button"><Link to="/contact">Contact</Link></li>
+            <li className="navbar-button navbar-button-options"><GiHamburgerMenu size={40}/></li>
           </ul>
         </nav>
     </>
