@@ -19,12 +19,14 @@ const ProductList = () => {
         return (
           <div className="product-card" key={product.id}>
             <img className="product-image" src={product.image} alt={product.alt}/>
-            <h3 className="product-title">{product.title}</h3>
-            <p className="product-description">{product.description}</p>
-            <h3 className="product-price">${product.cost}</h3>
-            <button className="product-button"><FaHeart /></button>
-            <button className="product-button"><MdShare /></button>
-            <button className="product-button"><MdAddShoppingCart /></button>
+            <div className="product-info">
+              <h3 className="product-title">{product.title}</h3>
+              {/* <p className="product-description">{product.description}</p> */}
+              <h3 className="product-price">${product.cost}</h3>
+              <button className="product-button"><FaHeart /></button>
+              <button className="product-button"><MdShare /></button>
+              <button className="product-button"><MdAddShoppingCart /></button>
+            </div>
           </div>
         )
       })}
