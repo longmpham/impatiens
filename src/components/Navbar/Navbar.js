@@ -21,7 +21,7 @@ const Navbar = () => {
           <li className="navbar-button">
             <Link to="/">Home</Link>
           </li>
-          <li className="navbar-button">
+          {/* <li className="navbar-button">
             <Link to="/about">About</Link>
           </li>
           <li className="navbar-button">
@@ -32,7 +32,7 @@ const Navbar = () => {
           </li>
           <li className="navbar-button">
             <Link to="/contact">Contact</Link>
-          </li>
+          </li> */}
         </ul>
         <button className="navbar-sidebar-button" onClick={handleSidebar}>
           <GiHamburgerMenu size={40} />
@@ -42,7 +42,7 @@ const Navbar = () => {
             <li className="navbar-sidebar-link">
               <Link to="/">Home</Link>
             </li>
-            <li className="navbar-sidebar-link">
+            {/* <li className="navbar-sidebar-link">
               <Link to="/about">About</Link>
             </li>
             <li className="navbar-sidebar-link">
@@ -53,7 +53,7 @@ const Navbar = () => {
             </li>
             <li className="navbar-sidebar-link">
               <Link to="/contact">Contact</Link>
-            </li>
+            </li> */}
           </ul>
         )}
       </nav>
