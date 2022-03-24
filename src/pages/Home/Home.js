@@ -28,7 +28,7 @@ const Home = () => {
             <button disabled className="home-landing-button">Check the nails out!</button>
           </div>
         </div>
-        <div className="home-quick-info-container">
+        {/* <div className="home-quick-info-container">
           <div className="home-quick-info-item">
             <h3>Hand Made</h3>
             <FaHandSparkles color='blue' size={70}/>
@@ -57,7 +57,7 @@ const Home = () => {
           <h2 className="home-quick-nav-item home-section-title">Get Impatiens Now!</h2>
           <button disabled className="home-quick-nav-item home-quick-nav-button">Current Products</button>
           <button disabled className="home-quick-nav-item home-quick-nav-button">Subscribe For Future Releases</button>
-        </div>
+        </div> */}
       </div>
     </>
   )
